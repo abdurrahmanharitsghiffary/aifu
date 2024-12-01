@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aifu"
+version = "0.1.0"
+description = "AIFU is Rag for asking informations related to AI such as waifu tier list based on user preferences, recommended waifus for the user, or we can se another users waifu tier lists that are they saved"
+authors = ["abdurrahmanharitsghiffary <abdmanharits@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
