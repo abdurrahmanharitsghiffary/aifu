@@ -10,11 +10,18 @@ readme = "README.md"
 python = "^3.11"
 langchain = "^0.3.9"
 pre-commit = "^4.0.1"
+langchain-google-vertexai = "^2.0.8"
 langchain-google-genai = "^2.0.6"
+python-dotenv = "^1.0.1"
+pydantic-settings = "^2.6.1"
+pypdf = "^5.1.0"
+langchain-community = "^0.3.8"
+langchain-chroma = "^0.1.4"
 
 
 [tool.poetry.group.dev.dependencies]
 commitizen = "^4.0.0"
+langchain-cli = "^0.0.33"
 
 [build-system]
 requires = ["poetry-core"]
